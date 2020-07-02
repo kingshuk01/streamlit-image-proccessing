@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 
-face_cascade = cv2.CascadeClassifier('harc/face.xml')
+face_cascade = cv2.CascadeClassifier('face.xml')
 
 def detect_faces(our_image):
     new_img = np.array(our_image.convert('RGB'))
